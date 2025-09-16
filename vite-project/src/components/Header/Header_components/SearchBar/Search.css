@@ -1,0 +1,17 @@
+.searchBar {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  background-color: white;
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.searchBar button {
+  border-left: 0.5px solid gray;
+}
