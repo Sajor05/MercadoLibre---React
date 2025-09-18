@@ -5,7 +5,13 @@ export function SearchBar() {
     <>
       <div className="searchBar shadow-md">
         <input type="text" placeholder="Buscar marcas, productos y mas..." />
-        <button className="cursor-pointer p-2 text-center">ingresar</button>
+        <div className="left-border">
+          <div>
+            <button className="cursor-pointer border-l-[0.5px] border-gray-300 p-2 text-center">
+              ingresar
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -1,14 +1,16 @@
 import { Main_carousel } from "./Home_carrousel/Main_Carrousel/Main_carousel";
-import { Recomendation_carrousel } from "./Home_carrousel/Recommendation_carrousel/Recommendation_carrousel";
+import { Recommendations } from "./Home_carrousel/Recommendation_carrousel/Recommendations";
 export function Home() {
   return (
     <>
-      <main>
+      <section>
         <div>
           <Main_carousel></Main_carousel>
-          <Recomendation_carrousel></Recomendation_carrousel>
+          <main className="flex justify-center p-7">
+            <Recommendations></Recommendations>
+          </main>
         </div>
-      </main>
+      </section>
     </>
   );
 }
