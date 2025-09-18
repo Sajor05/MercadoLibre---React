@@ -14,7 +14,6 @@ export function Recommendation_carousel({ children: slides }) {
   const next = () =>
     setCurr((curr) => (curr === slides.length - visibleCount ? 0 : curr + 1));
 
-  const porcentajeDeAncho = articleWidth + gap;
   return (
     <>
       <div

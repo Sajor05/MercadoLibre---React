@@ -5,6 +5,7 @@ import Carrousel_3 from "../../../../assets/Carrousel/carrousel3.jpg";
 import Carrousel_4 from "../../../../assets/Carrousel/carrousel4.jpg";
 import Carrousel_5 from "../../../../assets/Carrousel/carrousel5.jpg";
 import { Carousel } from "./Carousel";
+import { Recommendations } from "../Recommendation_carrousel/Recommendations";
 
 const carousel_images = [
   Carrousel_1,
@@ -26,7 +27,11 @@ export function Main_carousel() {
             </div>
           ))}
         </Carousel>
+        <div className="absolute left-0 right-0 top-2/3 z-10">
+          <Recommendations></Recommendations>
+        </div>
       </div>
+      <div className="h-60"></div>
     </main>
   );
 }

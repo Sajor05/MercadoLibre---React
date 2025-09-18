@@ -8,7 +8,7 @@ import { Recommendation7 } from "./Recommendations/Recommendation7";
 import { Recommendation8 } from "./Recommendations/Recommendation8";
 import { Recommendation9 } from "./Recommendations/Recommendation9";
 import { Recommendation10 } from "./Recommendations/Recommendation10";
-import { Recommendation_carousel } from "./Recommendations/Recommendation_carrousel";
+import { Recommendation_carousel } from "./Recommendation_carrousel";
 
 const articles = [
   Recommendation1,
@@ -26,7 +26,7 @@ const articles = [
 export function Recommendations() {
   return (
     <>
-      <section className="relative -top-40 p-5">
+      <section className="flex justify-center p-5">
         <Recommendation_carousel>
           <div className="flex gap-4 overflow-x-hidden">
             {articles.map((Article, i) => (
