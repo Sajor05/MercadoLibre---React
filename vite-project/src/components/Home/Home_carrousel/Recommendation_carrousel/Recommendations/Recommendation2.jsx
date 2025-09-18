@@ -8,7 +8,7 @@ import Recomendation2 from "../../../../../assets/Recomendation-carousel/recomen
 
 export function Recommendation2() {
   return (
-    <article className="p-5">
+    <article className="p-5 h-[285px]">
       <div className="recomendation-carousel-article-header">
         <h2 className="article-recomendation-title text-sm/8 font-bold">
           Ingresá a tu cuenta

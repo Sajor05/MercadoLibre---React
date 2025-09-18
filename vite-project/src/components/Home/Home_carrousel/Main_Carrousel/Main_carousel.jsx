@@ -31,7 +31,7 @@ export function Main_carousel() {
           <Recommendations></Recommendations>
         </div>
       </div>
-      <div className="h-60"></div>
+      <div className="h-70"></div>
     </main>
   );
 }
