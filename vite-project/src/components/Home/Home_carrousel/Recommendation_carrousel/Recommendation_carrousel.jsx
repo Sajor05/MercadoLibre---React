@@ -6,7 +6,7 @@ export function Recommendation_carousel({ children: slides }) {
   const visibleCount = 6;
   const containerRef = useRef(null);
   const articleWidth = 190;
-  const gap = 16;
+  const gap = 8;
 
   const prev = () =>
     setCurr((curr) => (curr === 0 ? slides.length - visibleCount : curr - 1));
@@ -18,12 +18,15 @@ export function Recommendation_carousel({ children: slides }) {
     <>
       <div
         className="overflow-x-hidden relative "
-        style={{ width: `${6 * 190 + 5 * 16}px` }}
+        style={{ width: `${6 * 190 + 5 * gap}px` }}
         ref={containerRef}
       >
         <div
           className="flex transition-transform ease-out duration-500"
-          style={{ transform: `translateX(-${curr * articleWidth + gap}px)` }}
+          style={{
+            transform: `translateX(-${curr * (articleWidth + gap)}px)`,
+            gap: `${gap}px`,
+          }}
         >
           {slides}
         </div>

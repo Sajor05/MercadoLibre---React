@@ -11,6 +11,11 @@ export function Home() {
         <section className="related_history_carousel">
           <Related_history></Related_history>
         </section>
+        <div className="mt-5">
+          <section className="bg-white h-[441px] w-[1180px] p-[20px]">
+            <h1>hpña</h1>
+          </section>
+        </div>
       </div>
     </>
   );

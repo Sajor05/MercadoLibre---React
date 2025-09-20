@@ -28,16 +28,14 @@ export function Recommendations() {
     <>
       <section className="flex justify-center p-5">
         <Recommendation_carousel>
-          <div className="flex gap-4 overflow-x-hidden">
-            {articles.map((Article, i) => (
-              <div
-                key={i}
-                className="articulos-card flex-shrink-0 w-[190px] h-[290px]"
-              >
-                <Article />
-              </div>
-            ))}
-          </div>
+          {articles.map((Article, i) => (
+            <div
+              key={i}
+              className="articulos-card flex-shrink-0 w-[190px] h-[290px]"
+            >
+              <Article />
+            </div>
+          ))}
         </Recommendation_carousel>
       </section>
     </>
