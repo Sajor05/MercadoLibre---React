@@ -30,7 +30,10 @@ export function Recommendations() {
         <Recommendation_carousel>
           <div className="flex gap-4 overflow-x-hidden">
             {articles.map((Article, i) => (
-              <div key={i} className="flex-shrink-0 w-[190px] h-[290px]">
+              <div
+                key={i}
+                className="articulos-card flex-shrink-0 w-[190px] h-[290px]"
+              >
                 <Article />
               </div>
             ))}

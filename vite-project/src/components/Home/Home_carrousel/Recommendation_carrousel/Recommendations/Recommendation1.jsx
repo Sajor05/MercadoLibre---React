@@ -9,7 +9,7 @@ import Recomendation1 from "../../../../../assets/Recomendation-carousel/recomen
 
 export function Recommendation1() {
   return (
-    <article className="p-5">
+    <article className="p-5 rounded-md">
       <div className="recomendation-carousel-article-header ">
         <h2 className="article-recomendation-title text-sm/8 font-bold">
           Porque te interesa

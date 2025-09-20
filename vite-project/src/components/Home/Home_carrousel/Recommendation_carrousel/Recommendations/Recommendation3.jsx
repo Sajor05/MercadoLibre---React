@@ -8,7 +8,7 @@ import Recomendation3 from "../../../../../assets/Recomendation-carousel/recomen
 */
 export function Recommendation3() {
   return (
-    <article className="p-5 h-[285px]">
+    <article className="p-5 h-[285px] rounded-md">
       <div className="recomendation-carousel-article-header">
         <h2 className="article-recomendation-title text-sm/8 font-bold whitespace-nowrap">
           Ingresá tu ubicación
