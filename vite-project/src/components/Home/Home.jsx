@@ -1,20 +1,44 @@
+import "./Home.css";
 import { Main_carousel } from "./Home_carrousel/Main_Carrousel/Main_carousel";
 import { Related_history } from "./Last_seen/Related_history";
+import { Recommendations } from "./Home_carrousel/Recommendation_carrousel/Recommendations";
+import { Suscribe } from "./Home_suscribe/home_suscribe";
 
 export function Home() {
   return (
     <>
-      <div>
-        <section className="main_carousels relative">
+      <main>
+        <section className="main_carousel">
           <Main_carousel></Main_carousel>
+          <div className="flex justify-center mt-[-450px]">
+            <Recommendations></Recommendations>
+          </div>
         </section>
-        <section className="related_history_carousel">
+
+        <section className="mt-[100px]">
           <Related_history></Related_history>
         </section>
-        <section className="bg-white h-[441px] w-[1180px] p-[20px]">
-          <h1>hpña</h1>
+
+        <section className="mt-[100px]">
+          <Suscribe></Suscribe>
         </section>
-      </div>
+
+        <section className="mt-[120px]">
+          <Related_history></Related_history>
+        </section>
+
+        <section className="mt-[120px]">
+          <Related_history></Related_history>
+        </section>
+
+        <section className="mt-[120px]">
+          <Related_history></Related_history>
+        </section>
+
+        <section className="mt-[120px]">
+          <Related_history></Related_history>
+        </section>
+      </main>
     </>
   );
 }
