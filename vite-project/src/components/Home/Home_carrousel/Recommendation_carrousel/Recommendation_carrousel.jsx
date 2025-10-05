@@ -17,7 +17,7 @@ export function Recommendation_carousel({ children: slides }) {
   return (
     <>
       <div
-        className="overflow-x-hidden relative "
+        className="overflow-x-hidden overflow-y-hidden relative "
         style={{ width: `${6 * 190 + 5 * gap}px` }}
         ref={containerRef}
       >

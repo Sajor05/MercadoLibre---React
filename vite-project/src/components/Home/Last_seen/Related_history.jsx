@@ -1,10 +1,10 @@
 import "./Related_history.css";
-import { Recommendations } from "../Home_carrousel/Recommendation_carrousel/Recommendations";
+import { Recommendations_history } from "./Recommendations_history";
 export function Related_history() {
   return (
     <>
       <div className="flex justify-center">
-        <section className="related_history-container bg-white h-[441px] w-[1180px] p-[20px]">
+        <section className="related_history-container bg-white h-[380px] w-[1180px] p-[20px]">
           <header className="related_history-header-container flex justify-between">
             <h3 className="font-bold">Inspirado en lo último que viste</h3>
             <ul className="flex gap-3">
@@ -35,7 +35,7 @@ export function Related_history() {
             </ul>
           </header>
           <main>
-            <Recommendations></Recommendations>
+            <Recommendations_history></Recommendations_history>
           </main>
         </section>
       </div>
