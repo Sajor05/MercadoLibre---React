@@ -12,7 +12,7 @@ const articles = [
   Article1,
 ];
 
-export function Recommendations_history3() {
+export function Recommendations_Ropa() {
   return (
     <>
       <section className="flex justify-center p-5">

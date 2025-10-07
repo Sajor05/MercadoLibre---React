@@ -1,5 +1,5 @@
 import "./Related_history.css";
-import { Recommendations_history } from "./Recommendations_history";
+import { History } from "./History";
 export function Related_history() {
   return (
     <>
@@ -35,7 +35,7 @@ export function Related_history() {
             </ul>
           </header>
           <main>
-            <Recommendations_history></Recommendations_history>
+            <History></History>
           </main>
         </section>
       </div>

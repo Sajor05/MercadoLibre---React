@@ -5,14 +5,14 @@ import { Recommendation_carousel } from "../Home_carrousel/Recommendation_carrou
 const articles = [
   Article1,
   Article2,
-  Article1,
+  Article2,
   Article1,
   Article1,
   Article1,
   Article1,
 ];
 
-export function Recommendations_history() {
+export function Recommendations_Electrodomesticos() {
   return (
     <>
       <section className="flex justify-center p-5">
